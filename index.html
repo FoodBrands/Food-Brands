@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOOD&BRANDS – Od idei twórcy do produktu FMCG</title>
+  <!-- Łączenie z Google Fonts w celu wczytania kroju Poppins (jeśli dostępne) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!--
+    Strona wizytówkowa dla FOOD&BRANDS SP. Z O.O.
+    Ta statyczna witryna została przygotowana jako narzędzie wizerunkowe.
+    Zawiera sekcje: strona główna, oferta, o nas i kontakt.
+    Projekt inspirowany jest najlepszymi praktykami dla branży spożywczej: czytelna nawigacja,
+    wysokiej jakości grafika oraz zwięzłe treści. Sekcje i nagłówki można w łatwy sposób
+    modyfikować w zależności od aktualnych potrzeb firmy.
+  -->
+</head>
+<body>
+  <!-- Nawigacja główna -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- Symbol marki z księgi znaku -->
+        <img src="logo_symbol.png" alt="Food &amp; Brands symbol">
+        <span>FOOD</span><span class="amp">&</span><span>BRANDS</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Strona główna</a></li>
+        <li><a href="#services">Usługi</a></li>
+        <li><a href="#about">O nas</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+      <!-- Przełącznik języka -->
+      <ul class="nav-links">
+        <li><a href="index.html">PL</a></li>
+        <li><a href="en.html">EN</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sekcja hero z hasłem i grafiką w tle -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <!-- Główny nagłówek akcentujący rolę firmy jako łącznika kreatorów i producentów -->
+      <h1>Łączymy świat kreatorów i producentów</h1>
+      <!-- Krótki opis misji wpisany w duch marki -->
+      <p>Tworzymy projekty zgodne z duchem i misją społeczności twórców.</p>
+      <div class="cta-buttons">
+        <a href="#about" class="btn primary">Poznaj nas</a>
+        <a href="#services" class="btn secondary">Nasze usługi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekcja usług / oferowanych kompetencji -->
+  <section id="services" class="services">
+    <h2>Nasze usługi</h2>
+    <div class="service-grid">
+      <div class="service-item">
+        <h3>Łączymy twórców i producentów</h3>
+        <p>Budujemy sieć współpracy między społecznościami twórców a firmami FMCG, aby wspólnie realizować ambitne projekty i przekładać pasję na realne działania.</p>
+      </div>
+      <div class="service-item">
+        <h3>Rozwijamy produkty od idei do półki</h3>
+        <p>Pomagamy przełożyć pomysły twórców na rzeczywiste produkty poprzez koordynację procesu produkcji i dystrybucji – od pomysłu, przez wytwarzanie, aż po półkę sklepową.</p>
+      </div>
+      <div class="service-item">
+        <h3>Tworzymy marki oparte na pasji</h3>
+        <p>Projektujemy brandy, które odzwierciedlają ducha i wartości społeczności, dbając o autentyczność i zaangażowanie konsumentów.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekcja o nas z historią i wartościami -->
+  <section id="about" class="about">
+    <h2>O FOOD&amp;BRANDS</h2>
+    <p>Jesteśmy zespołem łączącym świat producentów FMCG i kreatorów. Naszą misją jest pomaganie społecznościom twórców w przekładaniu ich unikalnych idei na realne produkty – zgodne z duchem i misją danej społeczności. Wspieramy projekty od inspiracji aż po wprowadzenie produktu na rynek.</p>
+    <!-- Adres i NIP przeniesiono do sekcji kontaktowej -->
+  </section>
+
+  <!-- Sekcja kontaktowa z formularzem i danymi kontaktowymi -->
+  <section id="contact" class="contact">
+    <h2>Skontaktuj się z nami</h2>
+    <p>Masz pytania lub chcesz porozmawiać o współpracy? Zapraszamy do kontaktu. Odpowiemy na każde zapytanie.</p>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Dane kontaktowe</h3>
+        <p><strong>FOOD&amp;BRANDS SP. Z O.O.</strong><br>
+          ul.&nbsp;Muszlowa&nbsp;35/6,<br>
+          Bielsko‑Biała&nbsp;43‑300<br>
+          NIP: 547&nbsp;225&nbsp;99&nbsp;20</p>
+        <p>Email: <a href="mailto:office@foodbrands.pl">office@foodbrands.pl</a></p>
+      </div>
+      <div class="contact-form">
+        <h3>Formularz kontaktowy</h3>
+        <form action="#" method="post">
+          <label for="name">Imię i nazwisko:</label>
+          <input type="text" id="name" name="name" placeholder="Twoje imię" required>
+          <label for="email">Adres email:</label>
+          <input type="email" id="email" name="email" placeholder="twój@adres.pl" required>
+          <label for="message">Wiadomość:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Napisz wiadomość..." required></textarea>
+          <button type="submit" class="btn primary">Wyślij</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 FOOD&BRANDS SP. Z O.O. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
